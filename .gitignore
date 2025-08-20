@@ -1,0 +1,8 @@
+Benmark/
+ReID/
+final_15h40/
+models/
+Detect_face_upper_body/Data/Data_test
+.venv/
+Detect_face_upper_body/Data/Detect_output
+Data_test.zip
