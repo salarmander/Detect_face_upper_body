@@ -12,5 +12,7 @@ for f in os.listdir(video_folder):
 
 for video_file in video_files:
     video_path = os.path.join(video_folder, video_file)
-    print(f"Detecting: {video_path}")
+    print(f"\nDetecting: {video_path}")
     detector.detect(video_path)
+
+detector.export_excel(video_path)
